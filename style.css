@@ -34,6 +34,10 @@ header h1 {
 	padding: 20px;
 }
 
+.edit-mode {
+	color: #ccc;
+}
+
 /* Form & Input */
 .form-input {
 	width: 100%;
@@ -105,13 +109,13 @@ header h1 {
 .items {
 	margin-top: 20px;
 	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
 }
 
 .items li {
 	display: flex;
 	justify-content: space-between;
-	width: 45%;
 	border: 1px solid #ccc;
 	border-radius: 5px;
 	padding: 10px 15px;
